@@ -3,6 +3,13 @@ codecognition_emailer
 
 Email Template Configuration Utility
 
+Open your settings.py
+
+add
+
+	EMAIL_HOST_USER = '' #Add the google username
+	EMAIL_HOST_PASSWORD = '' #Add the password 
+	
 To Run the server:
 python manage.py runserver
 
